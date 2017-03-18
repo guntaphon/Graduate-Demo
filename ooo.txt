@@ -1,0 +1,13 @@
+git init
+git add README.md   
+git commit -m "first commit"
+git remote add origin https://github.com/guntaphon/Graduate-Demo.git
+git push -u origin master
+===========================
+git pull origin master
+
+เวลาแก้ไฟล์เดียวกันต้อง commit ไปก่อน
+
+Assignment01 : สมาชิกแต่ละคนสร้างหน้าจอที่ตัวเองรับผิดชอบ
+     สร้างโฟลเดอร์ views
+     เช่นคนที่ 1 สร้าง Home =>  views/Home  ,  Home.xml, Home.js
