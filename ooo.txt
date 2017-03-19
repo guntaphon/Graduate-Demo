@@ -1,3 +1,8 @@
+tns plugin add tns-core-modules@next
+tns platform remove android
+tns platform add android@next
+
+======================================
 git init
 git add README.md   
 git commit -m "first commit"
@@ -11,3 +16,37 @@ git pull origin master
 Assignment01 : สมาชิกแต่ละคนสร้างหน้าจอที่ตัวเองรับผิดชอบ
      สร้างโฟลเดอร์ views
      เช่นคนที่ 1 สร้าง Home =>  views/Home  ,  Home.xml, Home.js
+
+
+=============================================
+     http://learngitbranching.org
+     knex js
+     moment
+     body-parser
+     express
+===================================================
+appid
+packageName th.ac.nwvoc.graduate
+
+
+
+  applicationId = "th.ac.nwvoc.Graduate"  //แก้ไขที่  app.gradle  ถ้าไม่มีไฟล์นี้copy จาก project อื่นมาได้
+
+
+  =========================
+  keytool -genkey -v -keystore keys.keystore -alias key-nwvoc-gra -keyalg RSA -keysize 2048 -validity 10000
+
+
+  ===================
+  tns build android --release --key-store-path keys.keystore --key-store-password 056221360 --key-store-alias key-nwvoc-gra --key-store-alias-password 056221360
+
+  ===
+  tns run android
+
+  http://bit.ly/nativescript_post1
+  http://bit.ly/native_script
+  ===========
+  ส่ง aphukong@ccollege.ac.th 089-932-1624 อ.อลงกรณ์
+  http://itdev.esy.es 
+
+  SPA

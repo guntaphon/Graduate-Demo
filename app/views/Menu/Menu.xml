@@ -1,0 +1,12 @@
+<Page loaded="pageLoad">
+     <ActionBar title="ระบบติดตามผู้สำเร็จการศึกษา" class="action-bar"></ActionBar>
+     <StackLayout>
+        <!-- Your UI components go here -->
+        <Label style="color:blue" text="ยินดีต้อนรับ" />
+        <Button text="บันทึกข้อมูลผู้สำเร็จการศึกษา" tap="addGrad" />
+        <Button text="แก้ไขข้อมูลส่วนตัว" tap="editProfile" />
+        <Button text="เปลี่ยนรหัสผ่าน" tap="changePass" />
+
+        <!--Button text="ลงทะเบียน" tap="goRegister"/-->
+     </StackLayout>
+</Page>

@@ -1,0 +1,10 @@
+<Page loaded="pageLoad">
+     <ActionBar title="ระบบติดตามผู้สำเร็จการศึกษา" class="action-bar"></ActionBar>
+     <StackLayout>
+        <!-- Your UI components go here -->
+        <Label style="color:blue" text="ติดต่อ" />
+        <Label style="color:#1307BF" text="นายกันตภณ  นาคภพ" />
+        <Label style="color:#09640A" text="081-379-9323" />
+        <Label style="color:#A71721" text="guntaphon@hotmail.com" />
+     </StackLayout>
+</Page>

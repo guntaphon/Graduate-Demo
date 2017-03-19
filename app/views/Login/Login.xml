@@ -1,0 +1,18 @@
+<Page loaded="pageLoad">
+    <StackLayout>
+    <Label style="color:blue" text="กรุณาล็อกอิน" />
+        <TextField
+            id="usrName"
+            class="usrName"
+            hint="รหัสนักศึกษา"
+            keyboardType="number"
+            autocorrect="false"
+            autocapitalizationType="none"
+            text="{{ usrName }}"
+        />
+        <TextField id="usrPass" hint="รหัสผ่าน" secure="true" text="{{ usrPass }}"/>
+        <Button class="usrName" text="ล็อกอิน" tap="checkLogin" />
+        <Button text="กลับหน้าแรก" tap="goHome"/>
+    </StackLayout>
+
+</Page>

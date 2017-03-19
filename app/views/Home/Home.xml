@@ -1,0 +1,10 @@
+<Page loaded="pageLoad">
+     <ActionBar title="ระบบติดตามผู้สำเร็จการศึกษา" class="action-bar"></ActionBar>
+     <StackLayout>
+        <!-- Your UI components go here -->
+        <Image src="~/images/logo.png"></Image>
+        <Button text="เข้าใช้ระบบ" tap="checkLogin" />
+        <Button text="ติดต่อ" tap="doConn" />        
+        <!--Button text="ลงทะเบียน" tap="goRegister"/-->
+     </StackLayout>
+</Page>

@@ -1,16 +1,23 @@
 {
-  "description": "NativeScript Application",
+  "description": "NativeScript Application By Mr.Guntaphon ...just begin.. ",
   "license": "SEE LICENSE IN <your-license-filename>",
-  "readme": "NativeScript Application",
+  "readme": "NativeScript Application By Mr.Guntaphon ...just begin.. ",
   "repository": "<fill-your-repository-here>",
   "nativescript": {
-    "id": "org.nativescript.Graduate"
+    "id": "th.ac.nwvoc.Graduate",
+    "tns-android": {
+      "version": "3.0.0-next-2017-03-14-1698"
+    }
   },
   "dependencies": {
     "nativescript-theme-core": "~1.0.2",
-    "tns-core-modules": "2.5.1"
+    "tns-core-modules": "^2.6.0-2017-02-08-5576"
   },
   "devDependencies": {
+    "babel-traverse": "6.4.5",
+    "babel-types": "6.4.5",
+    "babylon": "6.4.5",
+    "lazy": "1.0.11",
     "nativescript-dev-android-snapshot": "^0.*.*"
   }
 }
